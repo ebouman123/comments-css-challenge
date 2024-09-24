@@ -1,8 +1,20 @@
-body {
-    background-color: red;
+.comment {
+    border: black solid 1px;
+    
 }
 
+#allComments {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
-.comment {
-    background-color: hsl(239, 57%, 85%);
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25px;
+    height: 75px;
+    border: solid black 1px;
+    border-radius: 10%;
 }
