@@ -1,8 +1,9 @@
 .comment {
-    border: black solid 1px;
     display: flex;
     border-radius: 8px;
-    margin: 10px;
+    margin: 20px;
+    background-color: white;
+    padding: 15px;
 }
 
 ul {
@@ -12,9 +13,28 @@ ul {
 #allComments {
     display: flex;
     font-family: Rubik;
-    max-width: 43%;
+    width: 47%;
 }
 
+.reply {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.replyImage {
+    width: 15px;
+    height: 15px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:hsl(228, 33%, 97%);
+}
 
 .postInfo {
     display: flex;
@@ -26,6 +46,16 @@ ul {
 
 .text {
     display: flex;
+    color: gray;
+    padding: 10px;
+}
+
+.date {
+    color: gray;
+}
+
+.name {
+    font-weight:500;
 }
 
 .score {
@@ -33,11 +63,11 @@ ul {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    min-width: 30px;
+    min-width: 33px;
     height: 85px;
-    border: solid black 1px;
     border-radius: 8px;
     margin: 10px;
+    background-color: hsl(228, 33%, 97%);
 }
 
 img.plus,
