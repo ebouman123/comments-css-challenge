@@ -30,57 +30,100 @@
 </head>
 
 <body>
-<div id="allComments">
-  <!-- Comment #1 -->
-  <div class="comment" id="commentOne">
-    <div class="score"><img alt="plus" src="./images/icon-plus.svg" />12<img alt="minus" src="./images/icon-minus.svg" /></div>
-    <div class="profilePicture"><img src="./images/avatars/image-amyrobson.png" alt="profile" /></div>
-    <div class="name">amyrobson</div>
-    <div class="date">1 month ago</div>
-    <div class="text">
-      Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the
-      design and the responsiveness at various breakpoints works really well.
-    </div>
-  </div>
+  <div id="allComments">
+    <!-- Comment #1 -->
+    <ul>
+      <li>
+        <div class="comment" id="commentOne">
+          <div class="score"><img class="plus" alt="plus" src="./images/icon-plus.svg" />12<img class="minus"
+              alt="minus" src="./images/icon-minus.svg" /></div>
+          <div class="body">
+            <div class="postInfo">
+              <div class="profilePicture"><img class="picture" src="./images/avatars/image-amyrobson.png"
+                  alt="profile" />
+              </div>
+              <div class="name">amyrobson</div>
+              <div class="date">1 month ago</div>
+            </div>
+            <div class="text">
+              Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've
+              nailed
+              the
+              design and the responsiveness at various breakpoints works really well.
+            </div>
+          </div>
+        </div>
+      </li>
 
-  <!-- Comment #2 -->
-  <div class="comment" id="commentTwo">
-    <div class="score"><img alt="plus" src="./images/icon-plus.svg" />5<img alt="minus" src="./images/icon-minus.svg" /></div>
-    <div class="profilePicture"><img src="./images/avatars/image-maxblagun.png" alt="profile" /></div>
-    <div class="name">maxblagun</div>
-    <div class="date">2 weeks ago</div>
-    <div class="text">
-      Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into
-      React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!
-    </div>
-  </div>
-
-  <!-- Comment #3 (Reply to comment #2) -->
-  <div class="comment" id="commentThree">
-    <div class="score"><img alt="plus" src="./images/icon-plus.svg" />4<img alt="minus" src="./images/icon-minus.svg" /></div>
-    <div class="profilePicture"><img src="./images/avatars/image-ramsesmiron.png" alt="profile" /></div>
-    <div class="name">ramsesmiron</div>
-    <div class="date">1 week ago</div>
-    <div class="text">
-      @maxblagun If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering
-      React. It's very tempting to jump ahead but lay a solid foundation first.
-    </div>
-
-
-  </div>
-  <!-- Comment #4 (Reply to comment #2) -->
-  <div class="comment" id="commentFour">
-    <div class="score"><img alt="plus" src="./images/icon-plus.svg" />2<img alt="minus" src="./images/icon-minus.svg" /></div>
-    <div class="profilePicture"><img src="./images/avatars/image-juliusomo.png" alt="profile" /></div>
-    <div class="name">juliusomo</div>
-    <div class="date">2 days ago</div>
-    <div class="text">
-      @ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the
-      newest library/framework. But the fundamentals are what stay constant.
-    </div>
-  </div>
+      <!-- Comment #2 -->
+      <li>
+        <div class="comment" id="commentTwo">
+          <div class="score"><img class="plus" alt="plus" src="./images/icon-plus.svg" />5<img class="minus" alt="minus"
+              src="./images/icon-minus.svg" /></div>
+          <div class="body">
+            <div class="postInfo">
+              <div class="profilePicture"><img class="picture" src="./images/avatars/image-maxblagun.png"
+                  alt="profile" />
+              </div>
+              <div class="name">maxblagun</div>
+              <div class="date">2 weeks ago</div>
+            </div>
+            <div class="text">
+              Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to
+              dive
+              into
+              React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!
+            </div>
+          </div>
+        </div>
+      </li>
 
 
+      <!-- Comment #3 (Reply to comment #2) -->
+      <li>
+        <div class="comment" id="commentThree">
+          <div class="score"><img class="plus" alt="plus" src="./images/icon-plus.svg" />4<img class="minus" alt="minus"
+              src="./images/icon-minus.svg" /></div>
+          <div class="body">
+            <div class="postInfo">
+              <div class="profilePicture"><img class="picture" src="./images/avatars/image-ramsesmiron.png"
+                  alt="profile" />
+              </div>
+              <div class="name">ramsesmiron</div>
+              <div class="date">1 week ago</div>
+            </div>
+            <div class="text">
+              @maxblagun If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before
+              considering
+              React. It's very tempting to jump ahead but lay a solid foundation first.
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Comment #4 (Reply to comment #2) -->
+      <li>
+        <div class="comment" id="commentFour">
+          <div class="score"><img class="plus" alt="plus" src="./images/icon-plus.svg" />2<img class="minus" alt="minus"
+              src="./images/icon-minus.svg" /></div>
+          <div class="body">
+            <div class="postInfo">
+              <div class="profilePicture"><img class="picture" src="./images/avatars/image-juliusomo.png"
+                  alt="profile" />
+              </div>
+              <div class="name">juliusomo</div>
+              <div class="date">2 days ago</div>
+            </div>
+            <div class="text">
+              @ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems like everyone
+              knows
+              the
+              newest library/framework. But the fundamentals are what stay constant.
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
   </div>
 
 
