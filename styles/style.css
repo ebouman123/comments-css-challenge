@@ -16,16 +16,42 @@ ul {
     width: 47%;
 }
 
-.reply {
+.postBar {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.reply {
+    display: flex;
+    align-items: center;
     justify-content: flex-end;
+    color:hsl(238, 40%, 52%);
+    font-weight: 500;
+}
+
+.reply:hover {
+    background-color: rgba(240, 248, 255, 0.359);
+    border-radius: 10px;
+}
+
+.reply:active {
+    color: hsl(239, 57%, 85%);
+}
+
+img.plus:hover {
+    background-color: rgba(240, 248, 255, 0.359);
+    border-radius: 10px;
+}
+
+img.plus:active {
+    color: hsl(239, 57%, 85%);
 }
 
 .replyImage {
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
+    margin-right: 7px;
 }
 
 body {
@@ -40,6 +66,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: row;
+    justify-content: center;
     gap: 10px;
     margin-top: 10px;
 }
@@ -68,6 +95,8 @@ body {
     border-radius: 8px;
     margin: 10px;
     background-color: hsl(228, 33%, 97%);
+    color:hsl(238, 40%, 52%);
+    font-weight: 500;
 }
 
 img.plus,
