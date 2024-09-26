@@ -30,8 +30,42 @@ ul {
     font-weight: 500;
 }
 
+.deleteAndEdit {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 500;
+}
+
+img.deleteImage {
+    margin-right: 5px;
+}
+
+.delete {
+    color: hsl(358, 79%, 66%);
+    margin-right: 20px;
+}
+
+img.editImage {
+    margin-right: 5px;
+}
+
+.edit {
+    color:hsl(238, 40%, 52%);
+}
+
+.delete:hover{
+    background-color: rgb(240, 248, 255);
+    border-radius: 10px;    
+}
+
+.edit:hover{
+    background-color: rgb(240, 248, 255);
+    border-radius: 10px;    
+}
+
 .reply:hover {
-    background-color: rgba(240, 248, 255, 0.359);
+    background-color: rgb(240, 248, 255);
     border-radius: 10px;
 }
 
@@ -39,13 +73,8 @@ ul {
     color: hsl(239, 57%, 85%);
 }
 
-img.plus:hover {
-    background-color: rgba(240, 248, 255, 0.359);
-    border-radius: 10px;
-}
-
-img.plus:active {
-    color: hsl(239, 57%, 85%);
+img.plus:hover, img.minus:hover {
+    background-color: hsl(238, 40%, 52%);
 }
 
 .replyImage {
